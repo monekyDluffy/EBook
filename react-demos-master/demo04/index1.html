@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+    </script>
+  </head>
+
+  <body>
+    <div  id = "sample">
+    </div>
+    <script type="text/babel">
+    var  HelloMess  = React.createClass({
+      render: function() {
+        return  <h2>hello {this.props.name}  {this.props.age}</h2>;
+      }
+    });
+
+    ReactDOM.render(
+      <HelloMess name="sam" age="12" />,
+      document.getElementById("sample")
+    );
+
+    </script>
+
+
+  </body>
+</html>
