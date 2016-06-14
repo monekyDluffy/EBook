@@ -6,3 +6,5 @@
 [React Native从入门到原理](http://www.jianshu.com/p/978c4bd3a759)
 
 [官方中文网站](http://reactnative.cn/docs/0.27/getting-started.html)
+
+[找图书](http://www.cocoachina.com/webapp/20150814/13029.html)
